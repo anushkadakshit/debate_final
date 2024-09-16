@@ -1,0 +1,17 @@
+figcaption {
+  color: #808080;
+  font-style: italic;
+  font-size: 12pt;
+  font-family: Times-New-Roman;
+  padding: 3px;
+  text-align: center;
+  text-indent: -800px;
+}
+
+footer {
+    color: gray;
+    font-style: italic;
+}
+body {
+    font-family: Georgia, serif;
+}
