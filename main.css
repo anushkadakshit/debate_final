@@ -1,17 +1,44 @@
+/*sets fornt for all text on the page  astrick sets rule for everything*/
+
+* {
+    font-family: Georgia, serif;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+/*sets space for image*/
+figure {
+    max-width: 600px;
+}
+
+/*allows image to take up full space of above*/
+img {
+    max-width: 100%;
+}
+
+/*turns figcaption gray*/
+
 figcaption {
-  color: #808080;
+  color: darkgray;
   font-style: italic;
   font-size: 12pt;
   font-family: Times-New-Roman;
   padding: 3px;
-  text-align: center;
-  text-indent: -800px;
 }
 
-footer {
+h6{
     color: gray;
     font-style: italic;
 }
-body {
-    font-family: Georgia, serif;
+
+.red{
+    color: red;
 }
+
+/*class name is ._____*/
+.blue {
+    color: blue;
+}
+
